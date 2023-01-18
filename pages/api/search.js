@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     const response = await fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        cluster_id: '1379661944641244095',
+        cluster_id: "1379661944641244095",
         database: "sample_data",
         instruction: query,
       }),
