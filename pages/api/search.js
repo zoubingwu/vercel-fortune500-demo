@@ -1,5 +1,5 @@
 const url =
-  "https://data.tidbcloud.com/api/v1beta/apps/chat2query-yElaQuwQ/v1/chat2chart";
+  "https://data.tidbcloud.com/api/v1beta/apps/chat2query-YAnaYjrf/v1/chat2chart";
 
 export const config = {
   runtime: "edge",
@@ -13,13 +13,13 @@ export default async function handler(req, res) {
     const response = await fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        cluster_id: '1379661944639654096',
+        cluster_id: '1379661944641244095',
         database: "sample_data",
         instruction: query,
       }),
       headers: {
         "api-key":
-          "qgcmboi2FnDAb8nJzPrFOhnsIsjFznwaeuI4GmIlN3fHMceCd6mcP3B3g7c590Ded",
+          "bnPAtHqknAOtzPhI8gEMtysJKLIOhAqzeDCCbhdf23aLhtFNbcfJqN83J6uPCGjNs",
       },
     });
 
