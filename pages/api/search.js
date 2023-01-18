@@ -1,5 +1,5 @@
 const url =
-  "https://data.tidbcloud.com/api/v1beta/apps/chat2query-nxLGChUR/v1/chat2data";
+  "https://data.tidbcloud.com/api/v1beta/apps/chat2query-yElaQuwQ/v1/chat2chart";
 
 export const config = {
   runtime: "edge",
