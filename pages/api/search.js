@@ -13,12 +13,13 @@ export default async function handler(req, res) {
     const response = await fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        cluster_id: process.env.CLUSTER_ID,
-        database: process.env.DB,
+        cluster_id: '1379661944639654096',
+        database: "sample_data",
         instruction: query,
       }),
       headers: {
-        "api-key": process.env.API_KEY,
+        "api-key":
+          "qgcmboi2FnDAb8nJzPrFOhnsIsjFznwaeuI4GmIlN3fHMceCd6mcP3B3g7c590Ded",
       },
     });
 
