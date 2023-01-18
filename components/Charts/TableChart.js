@@ -1,10 +1,8 @@
 import { Table } from "@mantine/core";
 import style from "./TableChart.module.css";
 
-export const TableChart = ({ chartInfo, data, className, columns, fields }) => {
-  const { title } = chartInfo;
+export const TableChart = ({ data, columns }) => {
   console.log(data);
-  console.log("columns", columns);
   const titles = (
     <tr>
       {Object.values(columns).map((value, i) => (
@@ -15,8 +13,8 @@ export const TableChart = ({ chartInfo, data, className, columns, fields }) => {
     </tr>
   );
 
-  const rows = data.map((element) => (
-    <tr key={element.name}>
+  const rows = data.map((element,i) => (
+    <tr key={i}>
       {Object.values(element).map((v, i) => (
         <td key={i} className={style.tbody_tr_td}>
           {v}
