@@ -1,0 +1,23 @@
+.root {
+  padding: 0 30px 10px 30px;
+  border: 1px solid #4a4153;
+  border-radius: 3px;
+  width: 768px;
+  overflow: auto;
+  background: #1a191c;
+}
+
+.table {
+  color: #c4c4c4;
+}
+
+.tbody_tr_td {
+  border-top: 1px solid #4a4a4a;
+  padding: 10px 10px;
+}
+
+.thead_tr_th {
+  height: 60px;
+  color: #c4c4c4 !important;
+  border-bottom: 1px solid #49434f !important;
+}
