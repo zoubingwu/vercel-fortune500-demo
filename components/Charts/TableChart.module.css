@@ -12,8 +12,8 @@
 }
 
 .tbody_tr_td {
-  border-top: 1px solid #4a4a4a;
-  padding: 10px 10px;
+  border-top: 1px solid #4a4a4a !important;
+  padding: 12px 10px !important;
 }
 
 .thead_tr_th {
