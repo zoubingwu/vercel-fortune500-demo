@@ -1,3 +1,7 @@
+# Deprecated
+
+**Moved to [tidbcloud/vercel-fortune500-demo](https://github.com/tidbcloud/vercel-fortune500-demo)**
+
 ## Getting Started
 
 First, create a `.env.local` file in the root folder with given environment variables, you can get them in the setting of chat2query in TiDBCloud's web console:
